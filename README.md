@@ -1,6 +1,6 @@
-# VelocityDart
+# velocity.dart
 
-Welcome to VelocityDart, a local terminal emulator built with Flutter and Dartive. This project is a demonstration of how Dartive can be used to create an interactive terminal application that runs locally. 
+Welcome to velocity.dart, a local terminal emulator built with Flutter and Dartive. This project is a demonstration of how Dartive can be used to create an interactive terminal application that runs locally. 
 
 ## Overview
 
