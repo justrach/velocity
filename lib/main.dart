@@ -88,4 +88,17 @@ class TerminalHomePageState extends State<TerminalHomePage> {
       _output += response.body;
     });
   }
+
+    Future<void> handleCommand(String command) async {
+    _controller.clear();
+    var response = await http.post(  // Use client instead of http
+      Uri.parse('http://localhost:8080'),
+      body: command,
+    );
+    setState(() {
+      _output += response.body;
+    });
+  }
+}
+
 }
